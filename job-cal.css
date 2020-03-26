@@ -6,6 +6,7 @@ html {
 body {
 	background-color: rgb(61, 61, 61);
 	display: block;
+	font-family: monospace;
 }
 
 .calculator {
@@ -21,4 +22,12 @@ body {
 
 table {
 	box-shadow: 0 0 0 2px rgba(255, 255, 0, 0.2);
+	display: flex;
+	flex-flow: column nowrap;
 }
+
+table input {
+	font-size: 6em;
+	width: 100%;
+}
+
