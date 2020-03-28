@@ -17,7 +17,6 @@ body {
 	justify-content: center;
 	margin: auto;
 	padding: 25px 0;
-	width: 50%;
 }
 
 table {
@@ -27,7 +26,10 @@ table {
 }
 
 table input {
-	font-size: 6em;
+	font-size: 5em;
 	width: 100%;
 }
 
+th {
+	font-size: 5em;
+}
