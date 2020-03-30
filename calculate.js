@@ -1,5 +1,7 @@
-function calculate() {
-  money = Number(document.getElementById("money").value);
-  lessons = Number(document.getElementById("lessons").value * 350);
-  document.getElementById("total").value = money + lessons;
+function calcu() {
+	window.money = Number(document.getElementById("money").value);
+	window.lessons = Number(document.getElementById("lessons").value * 350);
+
+	document.getElementById("total").value = window.money + window.lessons;
+	console.log(window.money + window.lessons);
 }
